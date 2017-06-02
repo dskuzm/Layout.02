@@ -1,0 +1,750 @@
+/*---Fonts---*/
+
+@font-face {
+    font-family: 'OpenSans-Regular';
+    font-weight: normal;
+    font-style: normal;
+    src: url('../fonts/OpenSans-Regular/OpenSans-Regular.eot');
+    src: url('../fonts/OpenSans-Regular/OpenSans-Regular.woff2') format('woff2'), url('../fonts/OpenSans/OpenSans-Regular.eot?#iefix') format('embedded-opentype');
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    font-weight: normal;
+    font-style: normal;
+    src: url('../fonts/OpenSans-Regular/OpenSans.woff') format('woff'), url('../fonts/OpenSans/OpenSans.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'OpenSans-Bold';
+    src: url('../fonts/OpenSans-Bold/OpenSans-Bold.eot');
+    src: url('../fonts/OpenSans-Bold/OpenSans-Bold.woff2') format('woff2'), url('../fonts/OpenSans-Bold/OpenSans-Bold.woff') format('woff'), url('../fonts/OpenSans-Bold/OpenSans-Bold.ttf') format('truetype'), url('../fonts/OpenSans-Bold/OpenSans-Bold.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSans-BoldItalic';
+    src: url('../fonts/OpenSans-BoldItalic/OpenSans-BoldItalic.eot');
+    src: url('../fonts/OpenSans-BoldItalic/OpenSans-BoldItalic.woff2') format('woff2'), url('../fonts/OpenSans-BoldItalic/OpenSans-BoldItalic.woff') format('woff'), url('../fonts/OpenSans-BoldItalic/OpenSans-BoldItalic.ttf') format('truetype'), url('../fonts/OpenSans-BoldItalic/OpenSans-BoldItalic.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSans-ExtraBold';
+    src: url('../fonts/OpenSans-ExtraBold/OpenSans-ExtraBold.eot');
+    src: url('../fonts/OpenSans-ExtraBold/OpenSans-ExtraBold.woff2') format('woff2'), url('../fonts/OpenSans-ExtraBold/OpenSans-ExtraBold.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSans-Extrabold';
+    src: url('../fonts/OpenSans-ExtraBold/OpenSans-Extrabold.woff') format('woff'), url('../fonts/OpenSans-ExtraBold/OpenSans-Extrabold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSans-ExtraBoldItalic';
+    src: url('../fonts/OpenSans-ExtraBoldItalic/OpenSans-ExtraBoldItalic.eot');
+    src: url('OpenSans-ExtraBoldItalic.woff2') format('woff2'), url('OpenSans-ExtraBoldItalic.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSans-ExtraboldItalic';
+    src: url('OpenSans-ExtraboldItalic.woff') format('woff'), url('OpenSans-ExtraboldItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSans-Italic';
+    src: url('../fonts/OpenSans-Italic/OpenSans-Italic.eot');
+    src: url('../fonts/OpenSans-Italic/OpenSans-Italic.woff2') format('woff2'), url('../fonts/OpenSans-Italic/OpenSans-Italic.woff') format('woff'), url('../fonts/OpenSans-Italic/OpenSans-Italic.ttf') format('truetype'), url('../fonts/OpenSans-Italic/OpenSans-Italic.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSans-Light';
+    src: url('../fonts/OpenSans-Light/OpenSans-Light.eot');
+    src: url('../fonts/OpenSans-Light/OpenSans-Light.woff2') format('woff2'), url('../fonts/OpenSans-Light/OpenSans-Light.woff') format('woff'), url('../fonts/OpenSans-Light/OpenSans-Light.ttf') format('truetype'), url('../fonts/OpenSans-Light/OpenSans-Light.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSans-LightItalic';
+    src: url('../fonts/OpenSans-LightItalic/OpenSans-LightItalic.eot');
+    src: url('../fonts/OpenSans-LightItalic/OpenSans-LightItalic.woff2') format('woff2'), url('../fonts/OpenSans-LightItalic/OpenSans-LightItalic.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSansLight-Italic';
+    src: url('../fonts/OpenSans-LightItalic/OpenSansLight-Italic.woff') format('woff'), url('../fonts/OpenSans-LightItalic/OpenSansLight-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSans-Semibold';
+    src: url('../fonts/OpenSans-Semibold/OpenSans-Semibold.eot');
+    src: url('../fonts/OpenSans-Semibold/OpenSans-Semibold.woff2') format('woff2'), url('../fonts/OpenSans-Semibold/OpenSans-Semibold.woff') format('woff'), url('../fonts/OpenSans-Semibold/OpenSans-Semibold.ttf') format('truetype'), url('../fonts/OpenSans-Semibold/OpenSans-Semibold.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSans-SemiboldItalic';
+    src: url('../fonts/OpenSans-SemiboldItalic/OpenSans-SemiboldItalic.eot');
+    src: url('../fonts/OpenSans-SemiboldItalic/OpenSans-SemiboldItalic.woff2') format('woff2'), url('../fonts/OpenSans-SemiboldItalic/OpenSans-SemiboldItalic.woff') format('woff'), url('../fonts/OpenSans-SemiboldItalic/OpenSans-SemiboldItalic.ttf') format('truetype'), url('../fonts/OpenSans-SemiboldItalic/OpenSans-SemiboldItalic.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url('../fonts/Montserrat-Regular/Montserrat-Regular.eot');
+    src: url('../fonts/Montserrat-Regular/Montserrat-Regular.woff2') format('woff2'), url('../fonts/Montserrat-Regular/Montserrat-Regular.woff') format('woff'), url('../fonts/Montserrat-Regular/Montserrat-Regular.ttf') format('truetype'), url('../fonts/Montserrat-Regular/Montserrat-Regular.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url('../fonts/Montserrat-Bold/Montserrat-Bold.eot');
+    src: url('../fonts/Montserrat-Bold/Montserrat-Bold.woff2') format('woff2'), url('../fonts/Montserrat-Bold/Montserrat-Bold.woff') format('woff'), url('../fonts/Montserrat-Bold/Montserrat-Bold.ttf') format('truetype'), url('../fonts/Montserrat-Bold/Montserrat-Bold.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FontAwesome';
+    src: url('../fonts/fontawesome/fontawesome-webfont.eot?v=4.7.0');
+    src: url('../fonts/fontawesome/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'), url('../fonts/fontawesome/fontawesome-webfont.woff2?v=4.7.0') format('woff2'), url('../fonts/fontawesome/fontawesome-webfont.woff?v=4.7.0') format('woff'), url('../fonts/fontawesome/fontawesome-webfont.ttf?v=4.7.0') format('truetype'), url('./fonts/fontawesome/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
+    font-weight: normal;
+    font-style: normal
+}
+
+
+/*---Custom Reset---*/
+
+html {
+    font-family: 'OpenSans';
+    box-sizing: border-box;
+    height: 100%
+}
+
+body {
+    font-family: 'OpenSans';
+    font-size: 16px;
+    box-sizing: border-box;
+    height: 100%;
+    margin: 0;
+    color: #616161;
+    background: #fff;
+    line-height: 1
+}
+
+button {
+    cursor: pointer;
+    width: 190px;
+    height: 50px;
+    text-align: center;
+    font-size: 1.125em;
+    font-family: 'Montserrat-Regular';
+    background: transparent;
+    border: 2px solid #ff6e40;
+    outline: none;
+    text-transform: uppercase;
+    transition: 0.3s ease-in-out
+}
+
+button:hover {
+    transition: 0.3s ease-in;
+    background: #ff6e40;
+    color: #fff
+}
+button:focus, a:focus {
+    transition: 0.3s ease-in;
+    opacity: 0.7;
+}
+
+p {
+    margin-bottom: 35px
+}
+
+fieldset {
+    border: none;
+    padding: 0
+}
+
+textarea {
+    resize: vertical;
+    display: block
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat-Regular';
+    text-transform: uppercase;
+    color: #212121
+}
+
+h1 {
+    font-size: 3.125em;
+    margin: 0
+}
+
+h2 {
+    font-size: 2.625em
+}
+
+h3 {
+    font-size: 1.875em
+}
+
+h4 {
+    font-size: 1.250em
+}
+
+h5 {
+    font-size: 1.125em
+}
+
+h6 {
+    font-size: 1.000em
+}
+
+.title {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 27px;
+    font-family: 'Montserrat-Regular'
+}
+
+.title p {
+    color: #bdbdbd;
+    margin: 0 0 4px 0
+}
+
+.title h3 {
+    margin: 0;
+    color: #212121
+}
+
+.icon i {
+    height: 60px;
+    width: 60px;
+    border-radius: 60px;
+    color: #fff;
+    font-size: 30px;
+    line-height: 62px;
+    background: #ff6e40
+}
+
+
+/*---Header---*/
+
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding-top: 16px;
+    min-height: 70px;
+    box-sizing: border-box;
+    font-family: 'Montserrat-Regular';
+    z-index: 9999;
+    border-bottom: 1px solid #000;
+    background: #fff;
+}
+
+.header-logo {
+    display: inline-block;
+    line-height: 0
+}
+
+.header-logo img {
+    width: 178px
+}
+
+.header-nav {
+    float: right;
+    margin: 0;
+    padding: 0;
+    transition: 0.2s ease-in;
+    z-index: 999;
+    padding-top: 13px
+}
+
+.header-nav li {
+    display: inline-block;
+    text-transform: uppercase;
+    margin-left: 18px
+}
+
+.header-nav li a {
+    display: block;
+    color: #616161;
+    text-decoration: none;
+    transition: 0.2s ease
+}
+
+.header-nav li a:hover {
+    color: #ff6e40;
+    transition: 0.2s ease
+}
+
+.header-nav li a:focus,
+.header-nav li a:active {
+    color: #000
+}
+
+.burger-icon {
+    position: absolute;
+    z-index: 10;
+    top: 27px;
+    right: 27px;
+    width: 30px;
+    height: 16px;
+    cursor: pointer;
+    display: none;
+    z-index: 99999
+}
+
+.burger-icon .stripe1,
+.burger-icon .stripe2,
+.burger-icon .stripe3 {
+    position: absolute;
+    width: 30px;
+    height: 2px;
+    transition: all 0.3s ease-out;
+    outline: none;
+    background: #000
+}
+
+.burger-icon .stripe1 {
+    top: 0
+}
+
+.burger-icon .stripe2 {
+    top: 7px
+}
+
+.burger-icon .stripe3 {
+    top: 14px
+}
+
+.nav-open .header-nav {
+    transition: 0.3s ease;
+    left: 0
+}
+
+.nav-open .header-nav a {
+    color: #fff
+}
+
+.nav-open .stripe1,
+.nav-open .stripe3 {
+    top: 7px;
+    height: 3px;
+    background: #ff6e40;
+    transition: 0.3s ease-in
+}
+
+.nav-open .stripe1 {
+    -webkit-transform: rotate(135deg);
+    transform: rotate(135deg)
+}
+
+.nav-open .stripe2 {
+    transition: all .4s ease;
+    -webkit-transform: scale(0);
+    transform: scale(0)
+}
+
+.nav-open .stripe3 {
+    -webkit-transform: rotate(-135deg);
+    transform: rotate(-135deg)
+}
+
+
+/*---Hero---*/
+
+.hero{
+    padding-top: 70px;
+    height: 500px;
+    overflow: hidden;
+}
+.hero-slider-item {
+    display: table;
+    min-height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+.hero-description {
+    vertical-align: middle;
+    text-align: center;
+    color: #fff;
+    margin: 0 auto;
+    max-height: 1px;
+    overflow: hidden
+}
+
+
+
+ .hero,
+    .hero .slick-slider,
+    .hero .slick-track,
+    .hero .slick-list {
+        height: 500px;
+    }
+
+
+
+.hero-description h2 {
+    margin: 0;
+    line-height: 1;
+    color: #fff;
+    font-weight: 100
+}
+
+.hero-description p {
+    font-size: 1.625em;
+    max-width: 780px;
+    margin: 23px auto 36px;
+    line-height: 1.25;
+    line-height: 1.25
+}
+
+.slick-active .hero-description {
+    display: table-cell;
+    max-height: none;
+    overflow: visible
+}
+
+.hero-description button {
+    color: #fff
+}
+
+
+/*---About---*/
+
+.about {
+    padding: 100px 0;
+    text-align: center
+}
+
+.about-description {
+    margin-bottom: 30px
+}
+
+.about-description p {
+    line-height: 22px;
+    margin: 0 0 22px 0
+}
+
+.about button {
+    font-size: 0.875em;
+    border: 2px solid #212121
+}
+
+.about button:hover {
+    background: #212121;
+    color: #fff
+}
+
+
+/*---services---*/
+
+.services {
+    padding: 100px 0 60px;
+    background: #f5f5f5
+}
+
+.services .title {
+    margin-bottom: 35px
+}
+
+.services-item {
+    margin-bottom: 36px
+}
+
+.services-item-icon {
+    display: inline-block;
+    vertical-align: top;
+    line-height: 80px;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    background: url(../images/couners.png) center no-repeat
+}
+
+.services-item-icon i {
+    vertical-align: middle;
+    font-size: 48px;
+    color: #ff6e40
+}
+
+.services-item-description {
+    display: inline-block;
+    padding-left: 15px;
+    max-width: 290px
+}
+
+.services-item h4 {
+    margin: 0 0 4px 0px
+}
+
+.services-item p {
+    line-height: 20px;
+    margin: 0
+}
+
+
+/*---subscribe---*/
+
+.subscribe {
+    background: #424242;
+    padding: 40px 0
+}
+
+.subscribe-description p {
+    margin: 0
+}
+
+.subscribe-description p:first-child {
+    font-family: 'Montserrat-Regular';
+    font-size: 1.375em;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 1.4;
+    margin-bottom: 4px
+}
+
+.subscribe-description {
+    display: inline-block;
+    max-width: 780px
+}
+
+.subscribe button {
+    float: right;
+    width: 280px;
+    font-size: 0.875em;
+    color: #fff
+}
+
+
+/*----works---*/
+
+.works {
+    padding: 100px 0 80px
+}
+
+.works .title {
+    margin-bottom: 31px
+}
+
+.works-item {
+    height: 380px;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    margin-bottom: 20px
+}
+
+.works-item:hover .overlay-description {
+    bottom: 0;
+    transition: 0.3s ease-in
+}
+
+.works-item:hover .works-item-overlay .icon {
+    top: 0;
+    transition: 0.3s ease-in
+}
+
+.works-item-overlay {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    bottom: 0;
+    left: 10px;
+    transition: 0.3s ease
+}
+
+.works-item-overlay .icon {
+    color: #ff6e40;
+    height: 280px;
+    width: 100%;
+    line-height: 280px;
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: -100%;
+    transition: 0.5s ease
+}
+
+.overlay-description {
+    height: 100px;
+    background: #f4f4f4;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    bottom: -100%;
+    left: 0;
+    right: 0;
+    padding: 28px 0;
+    transition: 0.5s ease
+}
+
+.overlay-description a {
+    text-decoration: none
+}
+
+.overlay-description a:hover {
+    color: #212121
+}
+
+.overlay-description a:focus,
+.overlay-description a:active {
+    color: #000
+}
+
+.overlay-description h5 {
+    color: #ff6e40;
+    margin: 0 0 10px
+}
+
+.overlay-description h5 a {
+    color: #ff6e40
+}
+
+.overlay-description p a {
+    color: #757575
+}
+
+.overlay-description p {
+    margin: 0
+}
+
+
+/*--contact--*/
+
+.contact {
+    background: #f5f5f5;
+    padding: 40px 0 18px
+}
+
+.contact .title {
+    text-align: left;
+    padding-top: 5px
+}
+
+.contact-item .icon i {
+    text-align: center
+}
+
+.contact-item .icon {
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle
+}
+
+.contact-item-text {
+    display: inline-block;
+    vertical-align: middle
+}
+
+.contact-item-text p {
+    margin: 0
+}
+
+.contact-item-text a {
+    text-decoration: none;
+    color: #616161;
+    transition: 0.3s
+}
+
+.contact-item-text a:hover {
+    color: #ff6e40;
+    transition: 0.3s
+}
+
+
+/*--map--*/
+
+#map {
+    min-height: 400px
+}
+
+
+/*--footer--*/
+
+.footer {
+    font-size: 0.875em
+}
+
+.footer-copyright p {
+    margin: 25px 0;
+}
+
+.footer-social {
+    margin: 25px 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin: 25px 0
+}
+
+.footer-social li {
+    display: inline-block;
+    margin: 0 10px
+}
+
+.footer-social li a {
+    color: #bdbdbd;
+    font-size: 1.143em
+}
+
+.footer-info {
+    text-align: right;
+    margin: 25px 0
+}
+
+.footer-info a {
+    color: #757575;
+    transition: 0.3s;
+    position: relative;
+    margin-left: 20px
+}
+
+.footer-info a:first-child:after {
+    position: absolute;
+    right: -12px;
+    top: 50%;
+    display: block;
+    content: "";
+    width: 2px;
+    height: 14px;
+    margin-top: -7px;
+    background: #ff6e40
+}
+
+.footer a:hover {
+    text-decoration: none;
+    color: #ff6e40;
+    transition: 0.3s
+}
